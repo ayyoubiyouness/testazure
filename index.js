@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/youness', (req, res) => {
-    res.send('Hello, anas!');
+    res.send('Hello, anas');
   });
 
 app.listen(port, () => {
